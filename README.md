@@ -40,7 +40,7 @@ sudo systemctl restart cups
 
 ```
 
-## 2. Driver Installation (The "Ollie" Method)
+## 2. Driver Installation
 
 To avoid shell errors with special characters, always use single quotes around the URL.
 
