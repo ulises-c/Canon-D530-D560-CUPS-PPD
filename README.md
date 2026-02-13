@@ -4,6 +4,9 @@ A way to use a Canon D530/D560 with CUPS print server via a PPD for Linux ARM di
 ## Info
 I used this to connect my Canon imageCLASS D530 to my Raspberry Pi 4 using CUPS
 
+<details>
+<summary>OLD METHOD</summary>
+  
 ## Installation
 Install CUPS as you usually would, but then use the PPD from this repo when configuring the printer.
 
@@ -12,6 +15,7 @@ Device drivers are still needed on the device sending the print job. Drivers can
 
 ## Known Issues With This Method
 AirPrint does not work
+</details>
 
 ---
 
