@@ -51,10 +51,8 @@ wget -O canon_v620.tar.gz 'https://pdisp01.c-wss.com/gdl/WWUFORedirectTarget.do?
 tar -zxvf canon_v620.tar.gz
 
 # 4. Install via the ARM64 Subdirectory
-cd linux-UFRII-drv-v620-us/ARM64/Debian/
-sudo dpkg -i cnrdrvcups-ufr2-us_6.20-1.01_arm64.deb
-sudo apt install -f
-
+cd linux-UFRII-drv-v620-us/
+sudo ./install.sh
 ```
 
 ## 3. Printer Discovery
